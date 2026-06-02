@@ -1,50 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Jay Prime</title>
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: black;
+      background: radial-gradient(circle at top, #0a0a0a, #000);
       color: white;
-      text-align: center;
     }
 
-    .header {
-      padding: 60px;
-      font-size: 50px;
-      font-weight: bold;
+    header {
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    h1 {
+      font-size: 60px;
       color: #00f7ff;
-      text-shadow: 0 0 20px #00f7ff;
+      text-shadow: 0 0 25px #00f7ff;
+      letter-spacing: 4px;
     }
 
     .tagline {
-      font-size: 18px;
       color: #aaa;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    nav a {
+      color: #00f7ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 10px #00f7ff;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
     }
 
     .post {
-      margin: 40px auto;
-      width: 80%;
-      padding: 20px;
       background: #111;
-      border: 1px solid #00f7ff;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid #00f7ff;
+      box-shadow: 0 0 15px rgba(0,247,255,0.1);
       border-radius: 10px;
-      box-shadow: 0 0 15px #00f7ff33;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #555;
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="header">JAY PRIME</div>
-  <div class="tagline">A modern futuristic blog from the digital underground ⚡</div>
+  <header>
+    <h1>JAY PRIME</h1>
+    <div class="tagline">Where ideas turn into digital energy ⚡</div>
+  </header>
 
-  <div class="post">
-    <h2>First Post</h2>
-    <p>Welcome to Jay Prime. This is where ideas go futuristic.</p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="post">
+      <h2>🔥 Welcome Post</h2>
+      <p>This is Jay Prime—built from zero, powered by ideas and creativity.</p>
+    </div>
+
+    <div class="post">
+      <h2>⚡ Tech Thoughts</h2>
+      <p>This is where future posts will appear. Your blog is now alive.</p>
+    </div>
+
   </div>
+
+  <footer>
+    © 2026 Jay Prime • Built on GitHub Pages
+  </footer>
 
 </body>
 </html>
