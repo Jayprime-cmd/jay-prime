@@ -18,11 +18,24 @@
     }
 
     h1 {
-      font-size: 60px;
-      color: #00f7ff;
-      text-shadow: 0 0 25px #00f7ff;
-      letter-spacing: 4px;
-    }
+  font-size: 60px;
+  color: #00f7ff;
+  letter-spacing: 4px;
+  animation: glow 2s infinite alternate;
+}
+
+/* glowing pulse effect */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #00f7ff;
+    transform: translateY(0px);
+  }
+
+  100% {
+    text-shadow: 0 0 30px #00f7ff, 0 0 60px #00f7ff;
+    transform: translateY(-5px);
+  }
+}
 
     .tagline {
       color: #aaa;
